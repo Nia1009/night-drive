@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Vibe Coding 合集 · 邓淳月</title>
+<meta name="description" content="邓淳月的 Vibe Coding 作品合集：PRD 平台、Agent 自动评测平台、AI 应用模版三个可运行原型。">
+<link rel="stylesheet" href="assets/css/site.css">
+<link rel="stylesheet" href="assets/css/pages.css">
+<script>try{if(sessionStorage.getItem('cy-stage')==='1'){document.documentElement.classList.add('stage-on');}}catch(e){}</script>
+</head>
+<body>
+<div class="ambient" aria-hidden="true"></div>
+<div class="grain" aria-hidden="true"></div>
+
+<div class="stage" id="stage" aria-hidden="true">
+  <video class="stage-video" src="assets/video/night-drive-03.mp4" poster="assets/images/poster-03.jpg" muted playsinline preload="auto"></video>
+  <div class="stage-scrim"></div>
+  <div class="stage-meta">
+    <span class="stage-cn">Vibe Coding</span>
+    <span class="stage-en">SELECTED WORKS</span>
+  </div>
+  <div class="stage-progress"><i></i></div>
+</div>
+
+<div class="page-wrap">
+  <header class="topbar">
+    <a class="brand" href="index.html" data-nav>
+      <span class="brand-mark" aria-hidden="true">淳</span>
+      <span class="brand-text">
+        <span class="brand-cn">淳月</span>
+        <span class="brand-en">DENG CHUNYUE</span>
+      </span>
+    </a>
+    <nav class="nav" aria-label="主导航">
+      <a href="index.html" data-nav>首页<em>HOME</em></a>
+      <a href="resume.html" data-nav>简历<em>RÉSUMÉ</em></a>
+      <a href="company-fit.html" data-nav>适配度<em>FIT</em></a>
+      <a href="vibe-coding.html" data-nav aria-current="page">Vibe Coding<em>WORKS</em></a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <div class="page-head">
+      <span class="eyebrow">Vibe Coding / 合集</span>
+      <h1>三个可运行的原型</h1>
+      <p class="sub">
+        这三个项目都不是 PPT：<b>需求定义、信息架构、交互与前端实现都由我自己完成</b>，
+        它们现在是可以点开跑起来的原型。选它们的标准是同一条——能否把一种「工作方法」变成别人也能用的工具。
+      </p>
+    </div>
+
+    <section class="work reveal" data-od-id="work-prd-platform">
+      <div class="work-copy">
+        <span class="work-no" aria-hidden="true">01</span>
+        <h3>PRD 平台</h3>
+        <p class="work-en">REVIEW &amp; KNOWLEDGE SYSTEM</p>
+        <p class="desc">
+          用于沉淀需求说明与协作过程的 PRD 平台。HTML PRD 可以<b>直接在线阅读</b>，并支持评论、编辑和通知协同；
+          需求不再散落在文档与聊天记录里，评审、答疑与版本变更都留在同一处。公开版以<b>匿名只读归档</b>呈现。
+        </p>
+        <ul class="work-facts">
+          <li><b>19 份</b>真实 PRD 归档，按迭代分组检索</li>
+          <li>文档正文 + <b>问答讨论流</b>并排，评审上下文不丢失</li>
+          <li>公开版移除写入、上传与邀请接口，仅保留只读能力</li>
+        </ul>
+        <div class="work-tags">
+          <span>HTML PRD</span><span>评论协同</span><span>只读归档</span><span>信息架构</span>
+        </div>
+        <div class="work-cta">
+          <a class="link-arrow" href="https://nia1009.github.io/chunyue-portfolio/previews/prd-platform.html" target="_blank" rel="noopener">查看线上原型 ↗</a>
+        </div>
+      </div>
+      <div class="work-media">
+        <a class="work-shot" href="https://nia1009.github.io/chunyue-portfolio/previews/prd-platform.html" target="_blank" rel="noopener">
+          <img src="assets/images/prd.jpg" width="1440" height="1000" alt="PRD 平台界面截图：左侧迭代归档目录、中间 PRD 正文、右侧问答讨论流" loading="lazy">
+          <span class="shot-tag">原型截图</span>
+          <span class="shot-hint">打开原型 ↗</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="work reveal" data-od-id="work-evaluation-platform">
+      <div class="work-copy">
+        <span class="work-no" aria-hidden="true">02</span>
+        <h3>自动评测平台</h3>
+        <p class="work-en">AI EVALUATION WORKBENCH</p>
+        <p class="desc">
+          自动执行评测脚本，在仿真环境中驱动 Agent 完成测试；经 <b>AI 初判 + 人工复判</b> 两阶段后，
+          可导出完整评测报告。它把「评测与验收」的隐性判断变成了可复现的链路，已被推理部门作为评测基建，并将扩展至推理链测评。
+        </p>
+        <ul class="work-facts">
+          <li>覆盖测试集管理、任务运行、结果判定与<b>失败归因</b></li>
+          <li>保留<b>版本回归对比</b>，让「变好了吗」有据可查</li>
+          <li>公开版为只读快照：不连接内部服务、不执行任务</li>
+        </ul>
+        <div class="work-tags">
+          <span>Agent 评测</span><span>两阶段判定</span><span>回归对比</span><span>失败归因</span>
+        </div>
+        <div class="work-cta">
+          <a class="link-arrow" href="https://nia1009.github.io/chunyue-portfolio/previews/evaluation-platform/index.html" target="_blank" rel="noopener">查看线上原型 ↗</a>
+        </div>
+      </div>
+      <div class="work-media">
+        <a class="work-shot" href="https://nia1009.github.io/chunyue-portfolio/previews/evaluation-platform/index.html" target="_blank" rel="noopener">
+          <img src="assets/images/eval.jpg" width="1440" height="1000" alt="自动评测平台界面截图：顶部指标概览、左侧公开示例用例列表、右侧用例详情与评测素材" loading="lazy">
+          <span class="shot-tag">原型截图</span>
+          <span class="shot-hint">打开原型 ↗</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="work reveal" data-od-id="work-app-templates">
+      <div class="work-copy">
+        <span class="work-no" aria-hidden="true">03</span>
+        <h3>AI 应用模版</h3>
+        <p class="work-en">OPEN CREATION TOOLKIT</p>
+        <p class="desc">
+          为 Agent 提供可以直接搭建的应用骨架。普通用户不用理解节点与参数，
+          只要<b>自定义功能、生成并填充素材</b>，就能快速产出符合主站设计语言的完整应用——这是「自然语言生成 AI 应用」的落地形态。
+        </p>
+        <ul class="work-facts">
+          <li>三套骨架：<b>Creative Studio</b>、<b>Intent Media Editor</b>、<b>AI Character Setup</b></li>
+          <li>统一组件与视觉约束，产物自动对齐主站设计语言</li>
+          <li>上线两周实现日均发布 AI 应用 <b>100+</b></li>
+        </ul>
+        <div class="work-tags">
+          <span>应用骨架</span><span>组件化</span><span>素材生成</span><span>Agent 应用</span>
+        </div>
+        <div class="work-cta">
+          <a class="link-arrow" href="https://nia1009.github.io/chunyue-portfolio/previews/templates/template-1.html" target="_blank" rel="noopener">查看线上原型 ↗</a>
+        </div>
+      </div>
+      <div class="work-media">
+        <a class="work-shot" href="https://nia1009.github.io/chunyue-portfolio/previews/templates/template-1.html" target="_blank" rel="noopener">
+          <img src="assets/images/tpl2.jpg" width="1440" height="1000" alt="AI 应用模版「Intent Media Editor」界面截图：Clean Frame 前后对比与素材上传区" loading="lazy">
+          <span class="shot-tag">原型截图</span>
+          <span class="shot-hint">打开原型 ↗</span>
+        </a>
+      </div>
+    </section>
+
+    <div class="collection-foot">
+      <span>合集共 3 个原型 · 另有一个独立产品 AI Cinema（1 分钟长视频创作）与工作 PRD 归档未在此展开。</span>
+      <a class="link-arrow" href="https://nia1009.github.io/chunyue-portfolio" target="_blank" rel="noopener">访问完整线上作品集 ↗</a>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <span>© 2026 邓淳月 · CHUNYUE</span>
+    <span class="foot-links">
+      <a href="tel:13880403409">13880403409</a>
+      <a href="mailto:13880403409@163.com">13880403409@163.com</a>
+    </span>
+  </footer>
+</div>
+
+<script src="assets/js/site.js"></script>
+</body>
+</html>

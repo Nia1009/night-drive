@@ -1,0 +1,8 @@
+.DS_Store
+.file-versions/
+.od-skills/
+*.artifact.json
+
+# 源素材（站点实际使用的是 assets/ 里已处理好的文件）
+cy形象.webp
+20261016_*.mp4
